@@ -8,9 +8,14 @@
 #在 coin_ur.ini 里添加需要爬取的用户推特主页地址
 
 #安装chrome
+
 sudo touch /etc/default/google-chrome
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 
 #安装过程如果有依赖错误执行
 sudo apt-get -f install
